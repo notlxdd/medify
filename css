@@ -1,0 +1,377 @@
+html {
+  scroll-behavior: smooth;
+} 
+
+body{
+  background-image: url(https://i.ibb.co/7KR8c3X/medical-background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }
+
+.medify{
+  width: 60px;
+  height: 60px;
+}
+  
+.header {
+  overflow: hidden;
+  background-color: #0d5c63;
+  padding: 0px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+  margin-right: 2px;
+}
+
+
+.animation-background{
+  display: flex;
+  justify-content: center;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a2/Two_small_test_tubes_held_in_spring_clamps.jpg);
+  background: cover;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 40px;
+  height: 400px ;
+  overflow: hidden;
+  width: 100%;
+
+}
+.end1, .middle1{
+  display: inline-block;
+  overflow:hidden;
+  height: 1.5em;
+  text-align: center;
+}
+.end1{
+color: #78cdd7;
+}
+.end2{
+  position:absolute;
+  color:#78cdd7;
+}
+.middle1{
+  color: #cfcfcf;
+  animation-name: ani1; 
+  animation-duration: 7s; 
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  max-width: 0;
+}
+
+@keyframes ani1 {
+  0% {
+  max-width: 500px;
+}
+
+25% {
+  max-width: 0;
+}
+
+75% {
+  max-width: 0;
+}
+
+90% {
+  max-width: 500px;
+}
+
+100% {
+  max-width: 500px;
+}
+}
+#OurMission{
+  background: #78cdd7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border-top: solid #fffffa 5px;
+}
+.om-img{
+  order: 1;
+  padding: 20px;
+}
+.help{
+  
+  width: 250px;
+  height: 200px;
+  border-radius: 50px;
+  border:solid black 5px;
+  
+}
+.om-text{
+  order: 2;
+  padding: 10px;
+  margin-top: -1%;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-title{
+  text-align: center;
+  font-size: 30px;
+}
+.text-body{
+  font-size: 20px;
+}
+#ha{
+  border-top: solid #fffffa 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background-color: #247b7b;
+}
+.mp-border{
+  order: 1;
+  
+}
+.map{
+  padding: 10px;
+  width: 600px;
+  height: 450px;
+  border: none;
+}
+.booking{
+  order: 2;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+}
+.room{
+  background-color: #00ADBC;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  font-family: 'Playfair Display', serif;
+}
+
+#r1{
+  order:1;
+}
+#r2{
+  order:2;
+}
+#r3{
+  order:3;
+}
+#r4{
+  order:4;
+}
+#r5{
+  order:5;
+}
+.rnumber{
+  padding: 2px;
+  text-align: center;
+}
+#no{
+  border: solid #F20001 2px;
+}
+#yes{
+  border: solid #A1CE4A 2px;
+}
+.uav{
+  color: red;
+  font-family: 'Playfair Display', serif;
+}
+.av{
+  color: darkgreen;
+  font-family: 'Playfair Display', serif;
+}
+.stat{
+  text-align: center;
+}
+.book{
+  background-color: #247b7b;
+  color:#fffffa;
+  font-family: 'Playfair Display', serif;
+
+}
+.book:hover{
+  background-color:#78cdd7;
+  color: black;
+  cursor: pointer;
+}
+#contact{
+  border-top: solid white 5px;  
+  background-image: url("https://i.ibb.co/D7HgZqw/istockphoto-1247972349-612x612.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+.cm{
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px black;
+  
+}
+.c{
+  display: flex
+}
+.Lforms{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 20px;
+}
+.Rforms{
+margin: 20px;
+}
+
+.your-name{
+  height: 50px;
+  width: 500px;
+  font-family: 'Nunito', sans-serif;
+}
+.your-email{
+  height: 50px;
+  width: 500px;
+  font-family: 'Nunito', sans-serif;
+}
+.your-phone{
+  height: 50px;
+  width: 500px;
+  font-family: 'Nunito', sans-serif;
+}
+.your-message{
+  height: 300px;
+  width: 650px;
+  font-family: 'Nunito', sans-serif;
+
+}
+.submit-message{
+  display: flex;
+  justify-content: center;
+  
+}
+.btn{
+  border-radius: 200px;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  background-color: white;
+  font-weight: 1000;
+  
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+.orgs{
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color: #0d5c63;
+}
+.org-text{
+  text-align:center;
+  color: white;
+  font-family: "Roboto";
+}
+.org-pictures{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+#whoasked{
+  width: 200px;
+  height: 100px;
+}
+#whoasked:hover{
+  cursor: pointer;
+}
+#unicef{
+  width: 100px;
+  height: 100px;
+}
+#unicef:hover{
+  cursor: pointer;
+}
+#arc{
+  width: 200px;
+  height: 100px;
+}
+#arc:hover{
+  cursor: pointer;
+}
+.ss-animation{
+  
+  background-color: floralwhite;
+  height: 400px;
+}
+.ss-text{
+  text-align:center;
+  font-family: 'Karla', sans-serif;
+}
+#slideshow { 
+margin: 50px auto; 
+position: relative; 
+width: 250px; 
+height: 150px; 
+padding: 10px; 
+box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+.poic{
+  text-align: center;
+}
+#slideshow > .poic { 
+position: absolute; 
+top: 10px; 
+left: 10px; 
+right: 10px; 
+bottom: 10px; 
+}
+.flag{
+  padding-top: 25px;
+  width:  200px;
+  height: 100px;
+}
